@@ -1,0 +1,81 @@
+.navbar {
+	margin-bottom: 0;
+	border-radius: 0;
+}
+
+.row.content {height: 450px}
+
+.sidenav {
+	padding-top: 20px;
+	background-color: #f1f1f1;
+	height: 105%;
+}
+
+.clearfix {
+	overflow: auto;
+	padding-top: 0px;
+	margin-left: 25px;
+	margin-right: 25px;
+}
+
+.carousel-inner {
+	height: 235px;
+}
+
+.carousel-caption {
+	margin-left: 125px;
+	margin-bottom: 30px;
+}
+
+.col-md-8, .col-md-2 {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	height: 100%;
+}
+
+body {
+	background-image: url("../images/image5.png");
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+
+img.ab-pic {
+	float: left;
+	width:200px;
+	height: auto;
+	margin-right: 25px;
+}
+
+img.cm-img {
+	width: 75px;
+	height: auto;
+}
+
+img.c-img {
+	width: 200px;
+	height: auto;
+	margin-left: 10px;
+}
+
+p {
+	font-weight: bold;
+}
+
+hr {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+footer {
+	background-color: #555;
+	color: white;
+	padding: 17px;
+}
+
+@media screen and (max-width: 991px) {
+.sidenav {
+	height: auto;
+	padding: 15px;
+}
+.row.content {height:auto;} 
+}
