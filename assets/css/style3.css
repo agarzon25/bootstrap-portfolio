@@ -1,0 +1,15 @@
+.img-rounded {
+	height: 100px;
+	width: 100px;
+}
+
+
+table {
+	margin: 0 auto;
+}
+
+strong {
+	position: relative;
+	float: bottom;
+	display: block;
+}
